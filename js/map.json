@@ -20,6 +20,11 @@
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"},
+        "size": {
+          "field": "track",
+          "type": "quantitative",
+          "scale": {"domain": [0, 5]}
+        },
         "color": {
           "field": "brightness",
           "type": "quantitative",
