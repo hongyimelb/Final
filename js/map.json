@@ -31,11 +31,5 @@
         }
       }
     }
-  ],
-    "config": {
-    "projection": {
-      "type": "orthographic",
-      "rotate": [-140, 30, 0]
-    }
-  }
+  ]
 }
