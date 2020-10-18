@@ -3,7 +3,27 @@
   "width": 800,
   "height": 500,
   "title": "Australian Bushfires from M6 Satellite",
-  "projection": {"type": "equalEarth"},
+  "projections": [
+    {
+      "name": "projection",
+      "type": {"signal": "type"},
+      "scale": {"signal": "scale"},
+      "rotate": [
+        {"signal": "rotate0"},
+        {"signal": "rotate1"},
+        {"signal": "rotate2"}
+      ],
+      "center": [
+        {"signal": "center0"},
+        {"signal": "center1"}
+      ],
+      "translate": [
+        {"signal": "translate0"},
+        {"signal": "translate1"}
+      ]
+    }
+  ],
+
   "layer": [
     {
       "data": {
