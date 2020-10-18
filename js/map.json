@@ -8,7 +8,7 @@
       "name": "type",
       "value": "mercator"
     },
-    { "name": "scale", "value": 514,
+    { "name": "scale", "value": 2000,
       "bind": {"input": "range", "min": 50, "max": 2000, "step": 1} },
     { "name": "rotate0", "value": -129,
       "bind": {"input": "range", "min": -180, "max": 180, "step": 1} },
