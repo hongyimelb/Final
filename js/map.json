@@ -23,7 +23,7 @@
         "size": {
           "field": "track",
           "type": "quantitative",
-          "scale": {"domain": [0, 5]}
+          "scale": {"domain": [0, 4]}
         },
         "color": {
           "field": "brightness",
