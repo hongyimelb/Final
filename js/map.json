@@ -3,6 +3,8 @@
   "width": 800,
   "height": 500,
   "title": "Australian Bushfires from M6 Satellite",
+  "projection": {"type": "orthographic",
+  "rotate": [-140, 30, 0]},
   "layer": [
     {
       "data": {
