@@ -30,5 +30,6 @@ layer:[
 "encoding": {
  "text": {"field": "State", "type": "nominal"},
  "color": {"value": "black"}
-}]
+}
+]
 }
