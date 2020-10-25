@@ -16,4 +16,4 @@
   "tooltip": [
  {"field": "State", "type": "nominal"},
  {"field": "Station", "type": "nominal"}
-}
+]
