@@ -30,7 +30,7 @@
  "text": {"field": "State", "type": "nominal"},
  "color": {"value": "black"},
  "opacity": {"condition": {
- "test": "datum['State'] == 'NSW' || datum['State'] == 'VIC'",
+ "test": "datum['State'] == 'VIC'",
  "value": 1
  },
  "value": 0
