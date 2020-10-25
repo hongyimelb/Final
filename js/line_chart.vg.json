@@ -12,6 +12,10 @@
                 {"aggregate":"mean", "field": "Rain(mm)", "type": "quantitative","format": ".2f"},
                 {"timeUnit": "month", "field": "Date", "title": "Month"}]},
 "layer": [
+  {  "mark": {
+    "type": "line",
+    "point": true
+  }},
             {
            "mark": {
  "type": "text",
