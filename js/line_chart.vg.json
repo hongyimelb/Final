@@ -15,6 +15,6 @@
     "tooltip": [{"field": "State", "type": "nominal"},
                 {"aggregate":"mean", "field": "Rain(mm)", "type": "quantitative"},
                 {"timeUnit": "month", "field": "Date", "title": "Month"}],
-    "text": {"field": "State", "type": "nominal"},
+    "text": {"field": "State", "type": "nominal"}
   }
 }
