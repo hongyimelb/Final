@@ -11,17 +11,41 @@
     "tooltip": [{"field": "State", "type": "nominal"},
                 {"aggregate":"mean", "field": "Rain(mm)", "type": "quantitative","format": ".2f"},
                 {"timeUnit": "month", "field": "Date", "title": "Month"}]},
+   "params": [
+ {
+ "name": "state_selection",
+ "bind": {
+ "input": "select",
+ "options": [
+ null,
+ "VIC",
+ "NSW",
+ "ACT",
+ "TAS",
+ "NT",
+ "QLD",
+ "SA",
+ "WA"
+ ],
+ "labels":[
+ "Show All",
+ "VIC",
+ "NSW",
+ "ACT",
+ "TAS",
+ "NT",
+ "QLD",
+ "SA",
+ "WA"
+ ],
+ "name": "State Selection: "
+ }
+ }
+ ],
+  "transform": [
+ {"filter": "state_selection == null || datum.State == state_se
+lection"}],
   "layer": [{
- "selection": {
- "state_highlight": {
- "type": "multi",
- "fields": ["State"],
- "bind": "legend"}
- },
- "opacity": {
- "condition": {"selection": "state_highlight", "value": 0.6},
- "value": 0
- },
   "mark": {
     "type": "line",
     "point": true}
