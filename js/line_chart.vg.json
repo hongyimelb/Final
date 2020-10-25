@@ -17,6 +17,7 @@
                 {"timeUnit": "month", "field": "Date", "title": "Month"}],
   }
 }
+layer:[
 {
  "mark": {
  "type": "text",
@@ -29,5 +30,5 @@
 "encoding": {
  "text": {"field": "State", "type": "nominal"},
  "color": {"value": "black"}
-}
+}]
 }
