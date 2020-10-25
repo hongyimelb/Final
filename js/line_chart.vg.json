@@ -16,7 +16,7 @@
   "mark": {
     "type": "line",
     "point": true}
-  }
+  },
             {
            "mark": {
  "type": "text",
@@ -28,7 +28,6 @@
  },
           "encoding": {
  "text": {"field": "State", "type": "nominal"},
- "color": {"value": "black"},
-  }
- ]
+ "color": {"value": "black"}
+  }]
 }
