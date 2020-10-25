@@ -1,0 +1,14 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "Average Max Temperature of each month",
+  "data": {"url": "data/Australia Rainfall.xlsx"},
+  "mark": {
+    "type": "line",
+    "point": true
+  },
+  "encoding": {
+    "x": {"timeUnit": "month", "field": "Month"},
+    "y": {"aggregate":"mean", "field": "Max °C", "type": "quantitative"},
+    "color": {"field": "State", "type": "nominal"}
+  }
+}
