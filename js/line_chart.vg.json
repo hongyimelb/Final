@@ -12,8 +12,5 @@
     "x": {"timeUnit": "month", "field": "Date", "title": "Month"},
     "y": {"aggregate":"mean", "field": "Rain(mm)", "type": "quantitative"},
     "color": {"field": "State", "type": "nominal"},
-  },
-  "tooltip": [
-    {"field": "State", "type": "nominal"}
-]
+  }
 }
