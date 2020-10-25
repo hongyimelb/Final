@@ -11,7 +11,7 @@
     "tooltip": [{"field": "State", "type": "nominal"},
                 {"aggregate":"mean", "field": "Rain(mm)", "type": "quantitative"},
                 {"timeUnit": "month", "field": "Date", "title": "Month"}]
-  }
+  },
   "mark": {
     "type": "line",
     "point": true
