@@ -4,10 +4,6 @@
   "height": 400,
   "title": "Average Rainfall by Month",
   "data": {"url": "data/Australia_Rainfall.csv"},
-  "mark": {
-    "type": "line",
-    "point": true
-  },
   "encoding": {
     "x": {"timeUnit": "month", "field": "Date", "title": "Month"},
     "y": {"aggregate":"mean", "field": "Rain(mm)", "type": "quantitative"},
@@ -15,5 +11,9 @@
     "tooltip": [{"field": "State", "type": "nominal"},
                 {"aggregate":"mean", "field": "Rain(mm)", "type": "quantitative"},
                 {"timeUnit": "month", "field": "Date", "title": "Month"}]
+  }
+  "mark": {
+    "type": "line",
+    "point": true
   }
 }
