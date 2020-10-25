@@ -14,23 +14,6 @@
     "color": {"field": "State", "type": "nominal"},
     "tooltip": [{"field": "State", "type": "nominal"},
                 {"aggregate":"mean", "field": "Rain(mm)", "type": "quantitative"},
-                {"timeUnit": "month", "field": "Date", "title": "Month"}],
+                {"timeUnit": "month", "field": "Date", "title": "Month"}]
   }
-}
-layer:[
-{
- "mark": {
- "type": "text",
- "align": "right",
- "baseline": "middle",
- "dx": -12,
- "fontSize": 11.5,
- "fontStyle": "italic"
- },
-"encoding": {
- "text": {"field": "State", "type": "nominal"},
- "color": {"value": "black"}
-}
-}
-]
 }
