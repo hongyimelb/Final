@@ -4,18 +4,12 @@
   "height": 400,
   "title": "Average Rainfall by Month",
   "data": {"url": "data/Australia_Rainfall.csv"},
-  "transform": [
-    {
-      "calculate": "datetime(datum.Year, datum.Month, datum.Date)",
-      "as": "combined_date"
-    }
-  ],
   "mark": {
     "type": "line",
     "point": true
   },
   "encoding": {
-    "x": {"timeUnit": "month", "field": "combined_date"},
+    "x": {"timeUnit": "month", "field": "Month"},
     "y": {"aggregate":"mean", "field": "Rain(mm)", "type": "quantitative"},
     "color": {"field": "State", "type": "nominal"}
   }
