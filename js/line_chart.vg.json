@@ -15,6 +15,18 @@
     "tooltip": [{"field": "State", "type": "nominal"},
                 {"aggregate":"mean", "field": "Rain(mm)", "type": "quantitative"},
                 {"timeUnit": "month", "field": "Date", "title": "Month"}],
-    "text": {"field": "State", "type": "nominal"}
   }
+}
+{
+ "mark": {
+ "type": "text",
+ "align": "right",
+ "baseline": "middle",
+ "dx": -12,
+ "fontSize": 11.5,
+ "fontStyle": "italic"
+ },
+"encoding": {
+ "text": {"field": "Country", "type": "nominal"},
+ "color": {"value": "black"}
 }
