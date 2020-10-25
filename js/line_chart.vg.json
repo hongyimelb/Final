@@ -28,9 +28,9 @@
  },
           "encoding": {
  "text": {"field": "State", "type": "nominal"},
- "color": {"value": "black"},"opacity": {
- "condition": {
- "test": "datum['State'] == 'NSW' || datum['State'] == 'VIC'",
+ "color": {"value": "black"},
+ "opacity": {"condition": {
+ "test": "datum['State'] == 'NSW' || datum['State'] == 'VIC'" || datum['Month'] == 'Dec'",
  "value": 1
  },
  "value": 0
