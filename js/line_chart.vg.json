@@ -9,7 +9,7 @@
     "point": true
   },
   "encoding": {
-    "x": {"timeUnit": "month", "field": "Month", "type": "temporal"},
+    "x": {"timeUnit": "month", "field": "Date", "type": "temporal"},
     "y": {"aggregate":"mean", "field": "Rain(mm)", "type": "quantitative"},
     "color": {"field": "State", "type": "nominal"}
   }
