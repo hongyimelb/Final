@@ -27,6 +27,6 @@
  "fontStyle": "italic"
  },
 "encoding": {
- "text": {"field": "Country", "type": "nominal"},
+ "text": {"field": "State", "type": "nominal"},
  "color": {"value": "black"}
 }
