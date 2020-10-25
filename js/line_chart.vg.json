@@ -28,6 +28,6 @@
  },
           "encoding": {
  "text": {"field": "State", "type": "nominal"},
- "color": {"value": "black"}
+ "color": {"value": "black"}}
   }]
 }
