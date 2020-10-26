@@ -6,8 +6,8 @@
   "title": "Monthly Max Temperatures (°C)",
   "config": {
       "view": {
-          "strokeWidth": 10,
-          "step": 40
+          "strokeWidth": 0,
+          "step": 20
       },
       "axis": {
           "domain": false
@@ -16,24 +16,20 @@
   "mark": "rect",
   "encoding": {
       "x": {
-          "field": "Date",
+          "field": "date",
           "timeUnit": "date",
           "type": "ordinal",
-          "title": "Date",
+          "title": "Day",
           "axis": {
               "labelAngle": 0,
               "format": "%e"
-              }
-          },
+          }
+      },
       "y": {
-          "field": "Date",
+          "field": "date",
           "timeUnit": "yearmonth",
           "type": "ordinal",
-          "title": "Month/Year",
-          "axis": {
-              "labelAngle": 0,
-              "format": "%e"
-              }
+          "title": "Month/Year"
       },
       "color": {
           "field": "Max °C",
