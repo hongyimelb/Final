@@ -15,6 +15,7 @@
   },
   "mark": "rect",
   "encoding": {
+      "row": {"field": "Date", "timeUnit": "year"},
       "x": {
           "field": "Date",
           "timeUnit": "date",
