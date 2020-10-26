@@ -17,7 +17,7 @@
   "encoding": {
       "x": {
           "field": "Date",
-          "timeUnit": "utcyearmonth",
+          "timeUnit": "yearmonth",
           "type": "ordinal",
           "title": "Date",
           "axis": {
