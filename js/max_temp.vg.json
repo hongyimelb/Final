@@ -15,6 +15,7 @@
   },
   "mark": "rect",
   "encoding": {
+      "row": {"field": "State"},
       "x": {
           "field": "Date",
           "timeUnit": "date",
@@ -33,15 +34,15 @@
       },
       "color": {
           "field": "Max °C",
-          "aggregate": "mean",
+          "aggregate": "max",
           "type": "quantitative",
           "legend": {
               "title": null
           }
       },
-        "tooltip": [{"timeUnit": "month", "field": "Date", "title": "Month"},
-                    {"timeUnit": "date", "field": "Date", "title": "Day"},
-                {"aggregate":"mean", "field": "Max °C", "type": "quantitative","format": "d", "title": "Average Max Temp°C"}
+        "tooltip": [{"timeUnit": "year", "field": "Date", "title": "Year"},
+                    {"timeUnit": "month", "field": "Date", "title": "Month"},
+                {"aggregate":"max", "field": "Max °C", "type": "quantitative","format": "d", "title": "Max Temp°C"}
                 ]
   }
 }
