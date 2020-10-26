@@ -3,7 +3,7 @@
   "data": {
       "url": "data/Australia_Rainfall.csv"
   },
-  "title": "Daily Max Temperatures (°C)",
+  "title": "Monthly Max Temperatures (°C)",
   "config": {
       "view": {
           "strokeWidth": 0,
@@ -18,9 +18,9 @@
       "row": {"field": "State"},
       "x": {
           "field": "Date",
-          "timeUnit": "date",
+          "timeUnit": "month",
           "type": "ordinal",
-          "title": "Day",
+          "title": "Month",
           "axis": {
               "labelAngle": 0,
               "format": "%e"
@@ -28,9 +28,9 @@
       },
       "y": {
           "field": "Date",
-          "timeUnit": "month",
+          "timeUnit": "year",
           "type": "ordinal",
-          "title": "Month"
+          "title": "Year"
       },
       "color": {
           "field": "Max °C",
