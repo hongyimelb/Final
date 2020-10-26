@@ -16,7 +16,7 @@
   "mark": "rect",
   "encoding": {
       "x": {
-          "field": "date",
+          "field": "Date",
           "timeUnit": "date",
           "type": "ordinal",
           "title": "Day",
@@ -26,7 +26,7 @@
           }
       },
       "y": {
-          "field": "date",
+          "field": "Date",
           "timeUnit": "yearmonth",
           "type": "ordinal",
           "title": "Month/Year"
