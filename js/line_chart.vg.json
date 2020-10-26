@@ -6,7 +6,7 @@
   "data": {"url": "data/Australia_Rainfall.csv"},
   "encoding": {
     "x": {"timeUnit": "month", "field": "Date", "title": "Month"},
-    "y": {"aggregate":"mean", "field": "Rain(mm)", "type": "quantitative"},
+    "y": {"aggregate":"mean", "field": "Rain(mm)", "type": "quantitative", "title": "Rainfall (mm)"},
     "color": {"field": "State", "type": "nominal"},
     "tooltip": [{"field": "State", "type": "nominal"},
                 {"aggregate":"mean", "field": "Rain(mm)", "type": "quantitative","format": ".2f"},
