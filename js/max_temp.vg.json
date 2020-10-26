@@ -16,10 +16,9 @@
   "mark": "rect",
   "encoding": {
       "x": {
-          "field": "Date",
-          "timeUnit": "date",
-          "type": "ordinal",
-          "title": "Day",
+          "field": "State",
+          "type": "nominal",
+          "title": "State",
           "axis": {
               "labelAngle": 0,
               "format": "%e"
