@@ -10,17 +10,18 @@
     "color": {"field": "State", "type": "nominal"},
     "tooltip": [{"field": "State", "type": "nominal"},
                 {"aggregate":"mean", "field": "Rain(mm)", "type": "quantitative","format": ".2f"},
-                {"timeUnit": "month", "field": "Date", "title": "Month"}]},
+                {"timeUnit": "month", "field": "Date", "title": "Month"}],
+   "opacity": {
+ "condition": {"selection": "state_highlight", "value": 0.6},
+ "value": 0.2
+ },
+  },
    "selection": {
  "state_highlight": {
  "type": "multi",
  "fields": ["State"],
  "bind": "legend"
  }},
- "opacity": {
- "condition": {"selection": "state_highlight", "value": 0.6},
- "value": 0.2
- },
 "layer": [
   {  
     "mark": {
