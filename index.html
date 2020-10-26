@@ -13,25 +13,25 @@
 </head>
 <body>
 
-<h1>Week 10 HW</h1>
+<h1>Preparing for Bushfires</h1>
 
-<h2>Rainfall</h2>
-<div id="Rainfall"></div>
+<h2>Rainfall Patterns</h2>
+<div id="rain"></div>
 
-<h2>Bush Fires</h2>
-<div id="BushFires"></div>
+<h2>Wind Speed Patterns</h2>
+<div id="wind"></div>
 
 <script type="text/javascript">
   
-  var vis1 = "js/line_chart.vg.json";
+  var vis1 = "js/rainfall.vg.json";
   
-  vegaEmbed('#Rainfall', vis1).then(function(result) {
+  vegaEmbed('#rain', vis1).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   
-  var vis2 = "js/map.json";
+  var vis2 = "js/windspeed.vg.json";
   
-  vegaEmbed('#BushFires', vis2).then(function(result) {
+  vegaEmbed('#wind', vis2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
