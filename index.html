@@ -12,13 +12,26 @@
   
 </head>
 <body>
-  
-<div id="symbol_map"></div>
+
+<h1>Week 10 HW</h1>
+
+<h2>Rainfall</h2>
+<div id="Rainfall"></div>
+
+<h2>This is the second visualisation</h2>
+<div id="Bush Fires"></div>
 
 <script type="text/javascript">
-
-  var spec2 = "js/line_chart.vg.json";
-  vegaEmbed('#symbol_map', spec2).then(function(result) {
+  
+  var vis1 = "js/line_chart.vg.json";
+  
+  vegaEmbed('#symbol_map', vis1).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var vis2 = "js/map.json";
+  
+  vegaEmbed('#line_chart', vis2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
