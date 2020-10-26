@@ -18,6 +18,7 @@
       "x": {
           "field": "Date",
           "timeUnit": "date",
+          "type": "ordinal",
           "title": "Date",
           "axis": {
               "labelAngle": 0,
@@ -27,6 +28,7 @@
       "y": {
           "field": "Date",
           "timeUnit": "yearmonth",
+          "type": "ordinal",
           "title": "Month/Year",
           "axis": {
               "labelAngle": 0,
