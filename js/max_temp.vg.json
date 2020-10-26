@@ -6,8 +6,8 @@
   "title": "Monthly Max Temperatures (°C)",
   "config": {
       "view": {
-          "strokeWidth": 15,
-          "step": 30
+          "strokeWidth": 20,
+          "step": 40
       },
       "axis": {
           "domain": false
