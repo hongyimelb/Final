@@ -19,7 +19,7 @@
           "field": "Date",
           "timeUnit": "yearmonth",
           "type": "temporal",
-          "title": "Date",
+          "title": "Month/Year",
           "axis": {
               "labelAngle": 0,
               "format": "%e"
