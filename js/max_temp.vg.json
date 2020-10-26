@@ -19,8 +19,7 @@
           "field": "State",
           "type": "nominal",
           "title": "State"
-          }
-      },
+          },
       "y": {
           "field": "Date",
           "timeUnit": "yearmonth",
@@ -28,6 +27,7 @@
           "axis": {
               "labelAngle": 0,
               "format": "%e"
+          }
       },
       "color": {
           "field": "Max °C",
