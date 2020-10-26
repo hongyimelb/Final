@@ -17,17 +17,21 @@
   "encoding": {
       "x": {
           "field": "Date",
-          "timeUnit": "yearmonth",
-          "title": "Month/Year",
+          "timeUnit": "date",
+          "title": "Date",
           "axis": {
               "labelAngle": 0,
               "format": "%e"
               }
           },
       "y": {
-          "field": "State",
-          "type": "nominal",
-          "title": "State"
+          "field": "Date",
+          "timeUnit": "yearmonth",
+          "title": "Month/Year",
+          "axis": {
+              "labelAngle": 0,
+              "format": "%e"
+              }
       },
       "color": {
           "field": "Max °C",
@@ -38,8 +42,7 @@
               "title": "Temp°C"
           }
       },
-        "tooltip": [{"timeUnit": "year", "field": "Date", "title": "Year"},
-                    {"timeUnit": "month", "field": "Date", "title": "Month"},
+        "tooltip": [{"timeUnit": "yearmonthdate", "field": "Date", "title": "Date/Month/Year"},
                 {"aggregate":"max", "field": "Max °C", "type": "quantitative","format": "d", "title": "Max Temp°C"}
                 ]
   }
