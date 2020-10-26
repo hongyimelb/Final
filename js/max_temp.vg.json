@@ -44,5 +44,4 @@
                 {"timeUnit": "month", "field": "Date", "title": "Month"},
                 {"timeUnit": "date", "field": "Date", "title": "Day"}]
       }
-  }
 }
