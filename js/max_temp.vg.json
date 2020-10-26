@@ -19,11 +19,7 @@
           "field": "Date",
           "timeUnit": "yearmonth",
           "type": "ordinal",
-          "title": "Month/Year",
-          "axis": {
-              "labelAngle": 0,
-              "format": "%e"
-          }
+          "title": "Month/Year"
       },
       "y": {
           "field": "State",
