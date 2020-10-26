@@ -33,6 +33,7 @@
           "field": "Max °C",
           "aggregate": "max",
           "type": "quantitative",
+          "scale": {"scheme": "reds"},
           "legend": {
               "title": "Temp°C"
           }
