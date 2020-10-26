@@ -16,7 +16,18 @@
     "mark": {
     "type": "line",
     "point": true
-  }
+  },
+    "selection": {
+    "state_selection": {
+      "type": "multi", "fields": ["State"], "bind": "legend"
+    }
+  },
+    "encoding": {
+        "opacity": {
+      "condition": {"selection": "state_selection", "value": 1},
+      "value": 0.2
+    }
+    }
   },
             {
            "mark": {
