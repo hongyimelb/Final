@@ -17,7 +17,7 @@
   "encoding": {
       "x": {
           "field": "Date",
-          "timeUnit": "yearmonth",
+          "timeUnit": "yearmonthdate",
           "title": "Month/Year",
           "axis": {
               "labelAngle": 0,
