@@ -17,9 +17,8 @@
   "encoding": {
       "x": {
           "field": "Date",
-          "timeUnit": "yearmonth",
+          "timeUnit": "utcyearmonth",
           "type": "ordinal",
-          "title": "Month",
           "axis": {
               "labelAngle": 0,
               "format": "%e"
@@ -28,7 +27,7 @@
       "y": {
           "field": "State",
           "type": "nominal",
-          "title": "Year"
+          "title": "State"
       },
       "color": {
           "field": "Max °C",
