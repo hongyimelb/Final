@@ -5,12 +5,12 @@
   "title": "Average Max Wind Speed by Month",
   "data": {"url": "data/Australia_Rainfall.csv"},
   "encoding": {
-    "x": {"timeUnit": "yearmonth", "field": "Date", "title": "Year/Month"},
+    "x": {"timeUnit": "yearmonth", "field": "Date", "title": "Month/Year"},
     "y": {"aggregate":"mean", "field": "Max wind gust Spd - km/h", "type": "quantitative", "title": "Max Wind Speed (km/h)"},
     "color": {"field": "State", "type": "nominal"},
     "tooltip": [{"field": "State", "type": "nominal"},
                 {"aggregate":"mean", "field": "Max wind gust Spd - km/h", "type": "quantitative", "title": "Avg Max WindSpeed (km/h)", "format": "d"},
-                {"timeUnit": "yearmonth", "field": "Date", "title": "Year/Month"}]},
+                {"timeUnit": "yearmonth", "field": "Date", "title": "Month/Year"}]},
 "layer": [
   {  
     "mark": {
