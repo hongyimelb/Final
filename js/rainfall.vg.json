@@ -10,7 +10,7 @@
     "color": {"field": "State", "type": "nominal"},
     "tooltip": [{"field": "State", "type": "nominal"},
                 {"aggregate":"mean", "field": "Rain(mm)", "type": "quantitative","format": ".2f", "title": "Average Rainfall (mm)"},
-                {"timeUnit": "month", "field": "Date", "title": "Month"}]},
+                {"timeUnit": "yearmonth", "field": "Date", "title": "Year/Month"}]},
 "layer": [
   {  
     "mark": {
