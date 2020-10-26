@@ -38,7 +38,11 @@
           "type": "quantitative",
           "legend": {
               "title": null
-          }
+          },
+      "tooltip": [
+                {"aggregate":"max", "field": "Max °C", "type": "quantitative","format": "d", "title": "Max Temp °C"},
+                {"timeUnit": "month", "field": "Date", "title": "Month"},
+                {"timeUnit": "date", "field": "Date", "title": "Day"}]},
       }
   }
 }
