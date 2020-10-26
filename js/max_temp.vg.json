@@ -15,10 +15,9 @@
   },
   "mark": "rect",
   "encoding": {
-      "row": {"field": "State"},
       "x": {
           "field": "Date",
-          "timeUnit": "month",
+          "timeUnit": "yearmonth",
           "type": "ordinal",
           "title": "Month",
           "axis": {
@@ -27,9 +26,8 @@
           }
       },
       "y": {
-          "field": "Date",
-          "timeUnit": "year",
-          "type": "ordinal",
+          "field": "State",
+          "type": "nominal",
           "title": "Year"
       },
       "color": {
