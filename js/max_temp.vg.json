@@ -39,7 +39,7 @@
               "title": "Temp°C"
           }
       },
-        "tooltip": [{"timeUnit": "yearmonthdate", "field": "Date", "title": "Date/Month/Year"},
+        "tooltip": [{"timeUnit": "yearmonth", "field": "Date", "title": "Month/Year"},
                 {"aggregate":"max", "field": "Max °C", "type": "quantitative","format": "d", "title": "Max Temp°C"}
                 ]
   }
