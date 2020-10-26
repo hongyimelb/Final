@@ -9,7 +9,7 @@
     "y": {"aggregate":"mean", "field": "Rain(mm)", "type": "quantitative", "title": "Rainfall (mm)"},
     "color": {"field": "State", "type": "nominal"},
     "tooltip": [{"field": "State", "type": "nominal"},
-                {"aggregate":"mean", "field": "Rain(mm)", "type": "quantitative","format": ".2f"},
+                {"aggregate":"mean", "field": "Rain(mm)", "type": "quantitative","format": ".2f", "title": "Average Rainfall (mm)"},
                 {"timeUnit": "month", "field": "Date", "title": "Month"}]},
 "layer": [
   {  
