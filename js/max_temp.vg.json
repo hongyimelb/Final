@@ -15,6 +15,7 @@
   },
   "mark": "rect",
   "encoding": {
+      "column": {"field": "State"},
       "x": {
           "field": "Date",
           "timeUnit": "date",
