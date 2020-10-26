@@ -16,18 +16,18 @@
   "mark": "rect",
   "encoding": {
       "x": {
+          "field": "State",
+          "type": "nominal",
+          "title": "State"
+          }
+      },
+      "y": {
           "field": "Date",
           "timeUnit": "yearmonth",
           "title": "Month/Year",
           "axis": {
               "labelAngle": 0,
               "format": "%e"
-          }
-      },
-      "y": {
-          "field": "State",
-          "type": "nominal",
-          "title": "State"
       },
       "color": {
           "field": "Max °C",
