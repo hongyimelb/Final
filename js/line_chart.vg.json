@@ -13,10 +13,6 @@
     "x": {"timeUnit": "month", "field": "Date", "title": "Month"},
     "y": {"aggregate":"mean", "field": "Rain(mm)", "type": "quantitative"},
     "color": {"field": "State", "type": "nominal"},
-    "opacity": {
-      "condition": {"selection": "State_Selection", "value": 1},
-      "value": 0.2
-    },
     "tooltip": [{"field": "State", "type": "nominal"},
                 {"aggregate":"mean", "field": "Rain(mm)", "type": "quantitative","format": ".2f"},
                 {"timeUnit": "month", "field": "Date", "title": "Month"}]},
