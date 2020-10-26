@@ -35,7 +35,7 @@
           "aggregate": "max",
           "type": "quantitative",
           "legend": {
-              "title": null
+              "title": "Temp°C"
           }
       },
         "tooltip": [{"timeUnit": "year", "field": "Date", "title": "Year"},
