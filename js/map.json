@@ -25,7 +25,7 @@
           "type": "quantitative",
           "scale": {"domain": [0, 4]}
         },
-        "tooltip": [{"field": "longtitude"}, {"field": "latitude"}, {"field": "brightness"}, {"field": "instrument"}, {"field": "acq_date"}],
+        "tooltip": [{"field": "longitude"}, {"field": "latitude"}, {"field": "brightness"}, {"field": "instrument"}, {"field": "acq_date"}],
         "color": {
           "field": "brightness",
           "type": "quantitative",
