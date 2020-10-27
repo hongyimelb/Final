@@ -16,7 +16,7 @@
       "data": {
         "url": "https://raw.githubusercontent.com/hongyimelb/final/master/data/final.csv"
       },
-      "mark": {"type": "circle", "tooltip": {"content": "data"}},
+      "mark": {"type": "circle", "tooltip": [{"field": "longtitude"},{"field": "latitude"},{"field": "brightness"},{"field": "instrument"},{"field": "acq_date"}]},
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"},
