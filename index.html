@@ -15,6 +15,9 @@
 
 <h1>2019–20 Australian Bushfires</h1>
 
+<h2>Fire Locations</h2>
+<div id="map"></div>
+  
 <h2>Rainfall Patterns</h2>
 <div id="rain"></div>
 
@@ -41,6 +44,12 @@
   var vis3 = "js/max_temp.vg.json";
   
   vegaEmbed('#temp', vis3).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var vis4 = "js/map.json";
+  
+  vegaEmbed('#map', vis4).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   
