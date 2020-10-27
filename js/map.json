@@ -2,19 +2,19 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": 800,
   "height": 500,
-  "title": "Australian Bushfires from M6 Satellite",
+  "title": "Australian Bushfires from Satellites",
   "projection": {"type": "mercator", "scale":317, "center":[133,-30]},
   "layer": [
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/hongyimelb/FIT3179/master/js/OCE.topojson",
+        "url": "https://raw.githubusercontent.com/hongyimelb/final/master/js/OCE.topojson",
         "format": {"type": "topojson", "feature": "custom"}
       },
       "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/hongyimelb/FIT3179/master/data/fire_archive_M6_96619.csv"
+        "url": "https://raw.githubusercontent.com/hongyimelb/finalmaster/data/final.csv"
       },
       "mark": {"type": "circle", "tooltip": {"content": "data"}},
       "encoding": {
