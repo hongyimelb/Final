@@ -14,7 +14,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/hongyimelb/finalmaster/data/final.csv"
+        "url": "https://raw.githubusercontent.com/hongyimelb/final/master/data/final.csv"
       },
       "mark": {"type": "circle", "tooltip": {"content": "data"}},
       "encoding": {
