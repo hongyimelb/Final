@@ -16,7 +16,7 @@
       "data": {
         "url": "https://raw.githubusercontent.com/hongyimelb/final/master/data/final.csv"
       },
-      "params": [
+      "params": 
  {
  "name": "timeslider",
  "value": 20190801,
@@ -27,8 +27,8 @@
  "step": 30,
  "name": "Timeline"
  }
- }],
-      "transform": [{"filter": "datum.compare > timeslider"}],
+ },
+      "transform": {"filter": "datum.compare > timeslider"},
       "mark": {"type": "circle"},
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
