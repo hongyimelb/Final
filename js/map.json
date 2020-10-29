@@ -16,7 +16,7 @@
       "data": {
         "url": "https://raw.githubusercontent.com/hongyimelb/final/master/data/final.csv"
       },
-      selection": {
+      "selection": {
       "timeslider": {
       "type": "single",
       "fields": ["compare"],
