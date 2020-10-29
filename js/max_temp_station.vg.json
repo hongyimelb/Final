@@ -8,6 +8,7 @@
   "encoding": {
     "y": {"field": "Station", "type": "nominal", "sort": "-x"},
     "x": {"aggregate":"max", "field": "Max °C", "type": "quantitative"}
-  }
+  },
+  "color": "red"
 }
 
