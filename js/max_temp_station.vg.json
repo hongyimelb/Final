@@ -13,7 +13,7 @@
       }],
       "sort": [{"field": "Max °C", "order": "descending" }]
     }, {
-      "filter": "datum.rank <= 20"
+      "filter": "datum.rank <= 40"
     }
   ],
   "encoding": {
