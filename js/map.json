@@ -29,7 +29,7 @@
       "opacity": {
       "condition": {"selection": "time", "value": 1},
       "value": 0
-    }
+    },
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"},
