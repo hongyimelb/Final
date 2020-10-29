@@ -20,7 +20,7 @@
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"},
-        "title", "Track",
+        "title": "Track",
         "size": {
           "field": "track",
           "type": "quantitative",
