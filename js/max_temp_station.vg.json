@@ -20,7 +20,7 @@
   ],
   "encoding": {
     "x": {"field": "Station", "type": "nominal", "sort": "-y"},
-    "y": {"aggregate":"max", "field": "Max °C", "type": "quantitative", "title":"Max °C","scale": {"domain": [40, 50]}},
+    "y": {"aggregate":"max", "field": "Max °C", "type": "quantitative", "title":"Max °C","scale": {"domain": [40,50]}},
         "tooltip": [{"field": "State", "type": "nominal"},
                 {"field": "Station", "type": "nominal"},
                 {"field": "Max °C", "type": "quantiative"},
