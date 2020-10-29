@@ -25,7 +25,7 @@
                 {"field": "Station", "type": "nominal"},
                 {"field": "Max °C", "type": "quantiative"}
                ],
-    "color": {"field": "State", "type": "nominal"}
+    "color": {"value": "#ff3333"}
   }
 }
 
