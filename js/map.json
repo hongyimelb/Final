@@ -28,7 +28,7 @@
  "name": "Timeline"
  }
  }],
-      "transform": {"filter": "datum.compare > timeslider"},
+      "transform": [{"filter": "datum.compare > timeslider"}],
       "mark": {"type": "circle"},
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
