@@ -10,7 +10,6 @@
     "color": {"field": "State", "type": "nominal"},
     "tooltip": [{"field": "State", "type": "nominal"},
                 {"aggregate":"mean", "field": "Max wind gust Spd - km/h", "type": "quantitative", "title": "Avg Max WindSpeed (km/h)", "format": "d"},
-                {"field": "Station", "type": "nominal"},
                 {"timeUnit": "yearmonth", "field": "Date", "title": "Month/Year"}]},
 "layer": [
   {  
