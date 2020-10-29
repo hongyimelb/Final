@@ -37,7 +37,8 @@
       },
         "tooltip": [{"field": "State"},
                     {"timeUnit": "yearmonth", "field": "Date", "title": "Month/Year"},
-                {"aggregate":"max", "field": "Max °C", "type": "quantitative","format": "d", "title": "Max Temp°C"}
+                {"aggregate":"max", "field": "Max °C", "type": "quantitative","format": "d", "title": "Max Temp°C"},
+                    {"field": "Station", "type": "nominal"}
                 ]
   }
 }
