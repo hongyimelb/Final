@@ -20,6 +20,7 @@
       "time": {
       "type": "single",
       "fields": ["compare"],
+      "title": "Month/Year"
       "bind": {"input": "select", "options": ["201908","201909","201910","201911","201912","202001"]}
     }
   },
