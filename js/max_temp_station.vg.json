@@ -5,9 +5,20 @@
       "url": "data/Australia_Rainfall.csv"
   },
   "mark": "bar",
+    "transform": [
+    {
+      "window": [{
+        "op": "max",
+        "as": "rank"
+      }],
+      "sort": [{ "field": "Max °C", "order": "descending" }]
+    }, {
+      "filter": "datum.rank <= 10"
+    }
+  ],
   "encoding": {
-    "x": {"field": "Station", "type": "nominal", "sort": "-y"},
-    "y": {"aggregate":"max", "field": "Max °C", "type": "quantitative"},
+    "y": {"field": "Station", "type": "nominal", "sort": "-x"},
+    "x": {"aggregate":"max", "field": "Max °C", "type": "quantitative"},
     "color": {"value": "#ff3333"}
   }
 }
