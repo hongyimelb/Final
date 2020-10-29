@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 600,
+  "width": 800,
   "height": 300,
   "title": "Australian Bushfires from Satellites",
   "projection": {"type": "mercator", "scale":600, "center":[133,-30]},
