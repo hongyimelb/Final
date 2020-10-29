@@ -24,7 +24,8 @@
         "tooltip": [{"field": "State", "type": "nominal"},
                 {"field": "Station", "type": "nominal"},
                 {"field": "Max °C", "type": "quantiative"}
-               ]
+               ],
+    "color": {"field": "State", "type": "nominal"}
   }
 }
 
