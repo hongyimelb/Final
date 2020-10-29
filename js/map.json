@@ -35,6 +35,10 @@
           "scale": {"domain": [0, 4]},
           "title": "Track"
         },
+        "opacity": {
+          "condition": {"selection": "timeslider", "value": 1},
+          "value": 0
+        },
         "tooltip": [{"field": "longitude"}, {"field": "latitude"}, {"field": "brightness"}, {"field": "instrument"}, {"field": "acq_date"},{"field": "track"}],
         "color": {
           "field": "brightness",
