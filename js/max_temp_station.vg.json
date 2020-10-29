@@ -7,10 +7,10 @@
   "transform": [
     {
       "window": [{
-        "op": "rank",
+        "op": "max",
         "as": "rank"
       }],
-      "sort": [{ "aggregate":"max", "field": "Max °C", "order": "descending" }]
+      "sort": [{ "field": "Max °C", "order": "descending" }]
     }, {
       "filter": "datum.rank <= 10"
     }
