@@ -20,6 +20,7 @@
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"},
+        "title", "Track",
         "size": {
           "field": "track",
           "type": "quantitative",
@@ -29,7 +30,8 @@
         "color": {
           "field": "brightness",
           "type": "quantitative",
-          "scale": {"scheme": "reds"}
+          "scale": {"scheme": "reds"},
+          "title": "Brightness"
         }
       }
     }
