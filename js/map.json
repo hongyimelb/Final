@@ -20,7 +20,7 @@
       "time": {
       "type": "single",
       "fields": ["compare"],
-      "bind": {"input": "select", "options": [201908,201909,201910,201911,201912,202001]}
+      "bind": {"input": "select", "options": ["201908","201909","201910","201911","201912","202001"]}
     }
   },
       "mark": {"type": "circle"},
