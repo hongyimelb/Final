@@ -8,7 +8,7 @@
   "transform": [
     {
       "window": [{
-        "op": "max",
+        "op": "rank",
         "as": "rank"
       }],
       "sort": [{"field": "Max °C", "order": "descending" }]
