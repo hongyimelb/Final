@@ -6,7 +6,7 @@
   },
   "mark": "bar",
   "encoding": {
-    "y": {"field": "Station", "type": "nominal", "sort": {"field": "Max °C", "op": "average", "order":"descending"}},
+    "y": {"field": "Station", "type": "nominal", "sort": {"aggregate":"max", "field": "Max °C", "type": "quantitative", "order":"descending"}},
     "x": {"aggregate":"max", "field": "Max °C", "type": "quantitative"}
   }
 }
