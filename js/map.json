@@ -16,7 +16,20 @@
       "data": {
         "url": "https://raw.githubusercontent.com/hongyimelb/final/master/data/final.csv"
       },
+      "selection": {
+    "time": {
+      "type": "single",
+      "field": "compare",
+      "bind": {
+        "compare": {"input": "range", "min": 201908,"max": 202001,"step": 1}
+      }
+    }
+  },
       "mark": {"type": "circle"},
+      "opacity": {
+      "condition": {"selection": "time", "value": 1},
+      "value": 0
+    }
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"},
