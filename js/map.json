@@ -21,7 +21,7 @@
       "type": "single",
       "fields": ["compare"],
       "title": "Month/Year",
-      "bind": {"input": "select", "options": ["201908","201909","201910","201911","201912","202001"]}
+      "bind": {"input": "select", "options": ["08/2019","09/2019","10/2019","11/2019","12/2019","01/2020"]}
     }
   },
       "mark": {"type": "circle"},
