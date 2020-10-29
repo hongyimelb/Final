@@ -20,9 +20,9 @@
       "time": {
       "type": "single",
       "fields": ["compare"],
-      "name": "Month Selection : ",
       "bind": {"input": "select", "options": ["08/2019","09/2019","10/2019","11/2019","12/2019","01/2020"]}
-    }
+    },
+    "name": "Month Selection : "
   },
       "mark": {"type": "circle"},
       "encoding": {
