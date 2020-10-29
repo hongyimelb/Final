@@ -17,8 +17,8 @@
     }
   ],
   "encoding": {
-    "y": {"field": "Station", "type": "nominal", "sort": "-x"},
-    "x": {"aggregate":"max", "field": "Max °C", "type": "quantitative"},
+    "x": {"field": "Station", "type": "nominal", "sort": "-y"},
+    "y": {"aggregate":"max", "field": "Max °C", "type": "quantitative"},
     "color": {"value": "#ff3333"}
   }
 }
