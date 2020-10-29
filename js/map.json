@@ -3,7 +3,7 @@
   "width": 500,
   "height": 400,
   "title": "Australian Bushfires from Satellites",
-  "projection": {"type": "mercator", "scale":600, "center":[133,-30]},
+  "projection": {"type": "mercator", "scale":600, "center":[140,-30]},
   "layer": [
     {
       "data": {
