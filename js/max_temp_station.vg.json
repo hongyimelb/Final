@@ -4,6 +4,17 @@
   "data": {
       "url": "data/Australia_Rainfall.csv"
   },
+  "transform": [
+    {
+      "window": [{
+        "op": "rank",
+        "as": "rank"
+      }],
+      "sort": [{ "aggregate":"max", "field": "Max °C", "order": "descending" }]
+    }, {
+      "filter": "datum.rank <= 10"
+    }
+  ],
   "mark": "bar",
   "encoding": {
     "y": {"field": "Station", "type": "nominal", "sort": "-x"},
