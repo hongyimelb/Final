@@ -21,7 +21,10 @@
   "encoding": {
     "x": {"field": "Station", "type": "nominal", "sort": "-y"},
     "y": {"aggregate":"max", "field": "Max °C", "type": "quantitative", "title":"Max °C"},
-    "color": {"field": "State", "type": "nominal"}},
+        "tooltip": [{"field": "State", "type": "nominal"},
+                {"field": "Station", "type": "nominal"},
+                {"field": "Max °C", "type": "quantiative"}
+               ]
   }
 }
 
