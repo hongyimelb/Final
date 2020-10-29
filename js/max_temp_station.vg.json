@@ -17,8 +17,9 @@
   ],
   "mark": "bar",
   "encoding": {
-    "x": {"field": "Station", "type": "nominal", "sort": {"field": "Max °C", "op": "max", "order":"descending"}},
-    "y": {"aggregate":"max", "field": "Max °C", "type": "quantitative"}
+    "x": {"field": "Station", "type": "nominal", "sort": {"field": "Max °C", "type": "quantitative", "op": "max", "order":"descending"}},
+    "y": {"aggregate":"max", "field": "Max °C", "type": "quantitative"},
+    "color": "red"
   }
 }
 
