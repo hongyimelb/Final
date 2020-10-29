@@ -20,11 +20,11 @@
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"},
-        "title": "Track",
         "size": {
           "field": "track",
           "type": "quantitative",
-          "scale": {"domain": [0, 4]}
+          "scale": {"domain": [0, 4]},
+          "title": "Track"
         },
         "tooltip": [{"field": "longitude"}, {"field": "latitude"}, {"field": "brightness"}, {"field": "instrument"}, {"field": "acq_date"}],
         "color": {
