@@ -16,15 +16,19 @@
       "data": {
         "url": "https://raw.githubusercontent.com/hongyimelb/final/master/data/final.csv"
       },
-      "selection": {
-      "timeslider": {
-      "type": "single",
-      "fields": ["compare"],
-      "bind": {
-        "compare": {"input": "range", "min": 20190801,"max": 20200111,"step": 30}
-      }
-    }
-  },
+      "params": [
+ {
+ "name": "timeslider",
+ "value": 0,
+ "bind": {
+ "input": "range",
+ "min": 20190801,
+ "max": 20200111,
+ "step": 30,
+ "name": "Timeline"
+ }
+ }],
+      "transform": {"filter": "datum.compare > timeslider"},
       "mark": {"type": "circle"},
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
@@ -34,10 +38,6 @@
           "type": "quantitative",
           "scale": {"domain": [0, 4]},
           "title": "Track"
-        },
-        "opacity": {
-          "condition": {"selection": "timeslider", "value": 1},
-          "value": 0
         },
         "tooltip": [{"field": "longitude"}, {"field": "latitude"}, {"field": "brightness"}, {"field": "instrument"}, {"field": "acq_date"},{"field": "track"}],
         "color": {
