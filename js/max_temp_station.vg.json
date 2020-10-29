@@ -23,7 +23,8 @@
     "y": {"aggregate":"max", "field": "Max °C", "type": "quantitative", "title":"Max °C"},
         "tooltip": [{"field": "State", "type": "nominal"},
                 {"field": "Station", "type": "nominal"},
-                {"field": "Max °C", "type": "quantiative"}
+                {"field": "Max °C", "type": "quantiative"},
+                {"field": "Date", "type": "temporal"}
                ],
     "color": {"value": "#ff3333"}
   }
